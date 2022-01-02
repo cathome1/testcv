@@ -1,0 +1,59 @@
+.profile {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 360px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    font-family: Bradley Hand, cursive;
+
+}
+h1{
+    font-family: URW Chancery L, cursive;
+    font-size: 80px;
+    border: springgreen solid 1px;
+    padding: 5px 30px;
+    border-radius: 12px;
+    background: springgreen;
+}
+body {
+    background-color: rgb(16, 113, 192);
+}
+.headline {
+    border: solid springgreen 1px;
+    width: 250px;
+    padding: 3px 10px;
+    background-color: springgreen;
+    border-radius: 5px;
+}
+p {
+    color: rgb(255, 255, 255);
+}
+li {
+    color: rgb(255, 255, 255);
+}
+@media (min-width: 100px) {
+    .contacts {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  
