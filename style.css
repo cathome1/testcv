@@ -64,3 +64,8 @@ li {
     }
   }
   
+a:any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
