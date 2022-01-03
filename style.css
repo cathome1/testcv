@@ -13,16 +13,19 @@
     height: auto;
 }
 nav {
+    font-family: 'Comic Neue', cursive;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
 }
-footer {
+.footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    height: auto;
+    width: 100%;
 }
 main{
     font-family: 'Comic Neue', cursive;
